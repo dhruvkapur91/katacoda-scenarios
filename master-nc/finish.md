@@ -1,0 +1,1 @@
+You've come a long way... and now know everything there is to know about `nc` Go on, yield it power to make world peace.. or something else! Enjoy!
