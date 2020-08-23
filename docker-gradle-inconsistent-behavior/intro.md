@@ -1,1 +1,1 @@
-Welcome to your first Katacoda Scenario!
+Help me solve (the apparent) inconsistent behaviour in Docker and Gradle
