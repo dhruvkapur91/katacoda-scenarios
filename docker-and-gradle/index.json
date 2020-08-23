@@ -1,25 +1,22 @@
 {
   "title": "Dockerize a gradle application",
-  "description": "Your First Scenario",
+  "description": "Caching things properly",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
-      "courseData": "background.sh",
-      "code": "foreground.sh",
-      "text": "step1.md"
+      "title": "Step 1 - Build the container",
+      "text": "step1-build-container.md"
     }],
     "intro": {
       "text": "intro.md",
-      "credits": ""
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
+    "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {

@@ -1,1 +1,1 @@
-You've completed your first Katacoda scenario!
+Thanks for taking your time and helping me out
