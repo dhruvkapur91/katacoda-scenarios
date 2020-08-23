@@ -28,8 +28,8 @@
 # Inconsistent behavior
 
 - However if we rerun the same command as of line 4 in Dockerfile in the container
-`docker container run -it app bash -c "gradle -i clean build; find / | grep gradle | nl"`{{execute}}
+`docker container run -it why_no_cache_of_gradle_dependencies bash -c "gradle -i clean build; find / | grep gradle | nl"`{{execute}}
 
 - We see that lot of jars are added to `/home/gradle/.gradle/caches/` directory, where as previously it was empty...
 
-`docker container run -it app bash -c "find / | grep gradle | nl"`{{execute}}
+`docker container run -it why_no_cache_of_gradle_dependencies bash -c "find / | grep gradle | nl"`{{execute}}
