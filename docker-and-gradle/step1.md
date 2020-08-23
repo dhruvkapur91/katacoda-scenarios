@@ -1,4 +1,4 @@
-`apt install openjdk-14-jdk`{{execute}}
+`apt install -y openjdk-14-jdk`{{execute}}
 
 `java -version`{{execute}}
 
@@ -6,8 +6,8 @@
 
 `git clone https://github.com/dhruvkapur91/dockerize-gradle-springboot-app.git`{{execute}}
 
-`cd dockerize-gradle-springboot-app.git`{{execute}}
+`cd dockerize-gradle-springboot-app`{{execute}}
 
-`./gradlew bootRun &`{{execute}}
+`./gradlew bootRun & 2>&1 > /dev/null`{{execute}}
 
 `curl localhost:8080/greeting`{{execute}}
