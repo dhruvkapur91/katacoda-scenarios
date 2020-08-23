@@ -1,4 +1,5 @@
 #!/bin/bash
+set -xe
 
 apt install -y openjdk-14-jdk
 
