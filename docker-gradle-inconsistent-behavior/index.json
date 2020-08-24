@@ -4,10 +4,16 @@
   "difficulty": "beginner",
   "time": "5 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Build the container",
-      "text": "step1-build-container.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - Build the container",
+        "text": "step1-build-container.md"
+      },
+      {
+        "title": "Step 2 - Build docker file with logs",
+        "text" : "step2-build-container-with-logs.md"
+      }
+    ],
     "intro": {
       "text": "intro.md"
     },
