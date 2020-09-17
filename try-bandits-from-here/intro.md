@@ -1,0 +1,3 @@
+- This should give you access to a terminal right from your browser. 
+- This setup has not been tested much, you may lose progress so its a good idea to keep saving what you're doing. 
+- Let your trainers know incase you run into some issues with the environment. 

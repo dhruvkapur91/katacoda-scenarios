@@ -1,0 +1,1 @@
+This is a fully opeartional shell, for instance type `pwd` to see the present working directory. You should be able to work with Overthewire Bandits from here. 
